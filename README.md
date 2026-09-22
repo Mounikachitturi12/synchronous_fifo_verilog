@@ -42,5 +42,22 @@ When `rd_en = 1` and the FIFO is not EMPTY, data is read from the memory locatio
 
 The FIFO is FULL when:
 
-```text
+
 count = 16
+
+## Tools Used
+
+- Verilog HDL
+- Xilinx Vivado
+- Behavioral Simulation
+
+ ## Learning Outcomes
+
+Through this project, I learned:
+
+- FIFO architecture and operation
+- Verilog RTL design
+- Verilog testbench development
+- Self-checking verification using PASS/FAIL messages
+- Waveform analysis using Vivado
+- Pointer wraparound behavior
